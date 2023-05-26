@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class json_controller {
 	
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String home_index()
 	{
 		return "home";
